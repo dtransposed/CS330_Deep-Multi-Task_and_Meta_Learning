@@ -24,6 +24,6 @@ The plots are consistent with my expectations. First of all, with the growing nu
 
 ## Problem 4
 
-![Test Image 1]![Test Image 1](assets/5way1shot_bidir_lstm.png)
+![Test Image 1](assets/5way1shot_bidir_lstm.png)
 
 My personal goal with respect to this homework was primarily to implement **MANN** and understand the Black-Box Adaptation method. This is why I have decided to skip the trivial experimentation part. However, I liked the challenge of achieving above 60% accuracy on 5-way 1-shot learning. I have experimented with convolutional architectures (similar to ones used with MNIST classification), but somehow did not get any extraordinary results. What has helped the most is basically replacing vanilla LSTMs with bidirectional ones and making the network more beefy ("if it does not work - more layers...".
